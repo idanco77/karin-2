@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+div.container-fluid{
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/background-image.jpg");
+}
+
+p.tagline{
+    font-size: 20pt;
+}
+
+.contact-error{
+    border: 1px solid red;
+
+}
+
+.contact-black{
+    border: 1px solid black;
+
+}
+
+div.box{
+    background: rgba(255,255,255,0.3);
+}
+
+.btn{
+    border: 1px solid black;
+    background: rgba(255,255,255,0.1);
+}
+
+.form-control{
+    border: 1px solid black;
+    background: rgba(255,255,255,0.1);
+}
+
+.form-control::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+
+p.bottom-line{
+    font-size: 16pt;
+}
+
+
+
+
+
